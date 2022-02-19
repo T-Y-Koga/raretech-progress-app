@@ -68,5 +68,5 @@ docker-compose run --rm web-front sh -c "yarn add next react"
 ## run server
 
 ```
-docker-compose up build --no-cache
+docker-compose up --build 
 ```
