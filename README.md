@@ -1,4 +1,4 @@
-# django-react-nginx-mysql-docker
+# ratech-progress-app
 
 ## Modify the time for wait.sh
 
