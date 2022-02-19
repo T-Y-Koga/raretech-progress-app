@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     # Local
-    'progress-app.apps.TodoConfig',
+    'progress_app.apps.TodoConfig',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +136,8 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_WHITELIST = (
     'http://localhost',
 )
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass

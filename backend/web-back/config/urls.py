@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('progress-app.urls'))  # 追加
+    path('api/', include('progress_app.urls'))  # 追加
 ]

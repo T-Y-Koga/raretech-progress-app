@@ -8,7 +8,7 @@ ALLOWED_HOSTS = ['*']
 
 STORAGE_NAME = os.environ.get('STORAGE_NAME')
 
-# progress-app: STORAGE NAMEを環境変数に追加
+# progress_app: STORAGE NAMEを環境変数に追加
 STATIC_URL = f'https://storage.googleapis.com/{STORAGE_NAME}/static/'
 
 DATABASES = {

@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class TodoConfig(AppConfig):
-    name = 'progress-app'
+    name = 'progress_app'

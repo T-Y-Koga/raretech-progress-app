@@ -9,12 +9,12 @@ class TodoModelTest(TestCase):
 
     @classmethod
     def setUpTestData(cls):
-        Todo.objects.create(title="first progress-app", body="a body here")
+        Todo.objects.create(title="first progress_app", body="a body here")
 
     def test_title_content(self):
         todo = Todo.objects.get(id=1)
         excepted_object_name = f'{todo.title}'
-        self.assertEqual(excepted_object_name, 'first progress-app')
+        self.assertEqual(excepted_object_name, 'first progress_app')
 
     def test_body_content(self):
         todo = Todo.objects.get(id=1)

@@ -10,8 +10,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'progressApp',
-        'USER': os.environ.get('USER'),
-        'PASSWORD': 'password',
+        'USER': os.environ.get('ROOT'),
+        'PASSWORD': 'root',
         'HOST': os.environ.get('HOST'),
         'PORT': '3306',
     }
