@@ -8,7 +8,7 @@ Modify the timeout seconds in `frontend/nginx/wait.sh` if the frontend nginx ser
 WAITFORIT_TIMEOUT=${WAITFORIT_TIMEOUT:-15}
 ```
 
-## `backend/webb-back/config` add file `get_random_secret_key.py`
+##  Add file `get_random_secret_key.py` in `backend/webb-back/config`
 
 ```
 from django.core.management.utils import get_random_secret_key
